@@ -11,10 +11,13 @@ body{
     display: flex;
     gap: 10px;
     height: 70px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
-.contain{
-    display: flex;
-} 
+
 .home{
     width: 38px;
     position: absolute;
@@ -107,14 +110,83 @@ body{
     align-items: center;
 }
 
+
+.contain{
+    display: flex;
+    position: relative;
+} 
 .left{
     margin: 10px 5px;
     background-color: rgb(31, 30, 30);
     border-radius: 10px;
-    width: 25%;
+    width: 24%;
     height: 88vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    z-index: 10;
 }
+.section{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pluscirlce{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(70, 71, 71);
+    position: relative;
+}
+.plus{
+    width: 20px;
+    height: 50px;
+    filter: invert();
+    position:absolute;
+    top: -8px;
+    left: 5px;
+}
+.createplylist{
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(72, 71, 71);
+    border-radius: 20px;
+    
+}
+.createplylist>h3,p{
+    margin: 10px;
+}
+.buttnn{
+    margin: 10px;
+    padding: 9px;
+    border-radius: 40px;
+}
+.createpodcst{
+    height: 170px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(72, 71, 71);
+    border-radius: 20px;
+}
+.footersectin{
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+}
+.footersectin>a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
 .right{
     width: 75%;
     height: 100vh;
@@ -122,5 +194,8 @@ body{
     background-color: rgb(31, 30, 30);
     border-radius: 10px;
     padding: 10px;
-    
+    position:relative;
+    top: 70px;
+    left: 370px;
+    overflow-y: scroll;
 }
