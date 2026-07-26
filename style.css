@@ -5,20 +5,122 @@
 }
 body{
     background-color: black;
+    color: white;
 }
-.container{
-    width: 100vw;
-    height: 100vh;
+.nav{
     display: flex;
-    flex-direction: row;
+    gap: 10px;
+    height: 70px;
+}
+.contain{
+    display: flex;
+} 
+.home{
+    width: 38px;
+    position: absolute;
+    left: 4px;
+}
+.homecircle{
+    margin: 20px;
+    margin-left: 90px;
+    margin-right: 0px;
+    width: 50px;
+    height: 45px;
+    background-color: rgb(52, 50, 50);
+    border-radius: 50%;
+    border: 2px solid rgb(45, 41, 41);
+    position: relative;
+}
+.homecircle:hover{
+    filter: invert();
+}
+.logo{
+    width: 40px;
+    margin: 20px;
+}
+#inputsearch{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    color: grey;
+    background-color: black;
+    border: 1px solid gray;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists>li>a{
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(156, 154, 154);
+}
+.divide{
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    width: 3px;
+    height: 25px;
+    position: relative;
+    top: 7px ;
+}
+.install{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.install>a{
+    text-decoration: none;
+    color: rgb(156, 154, 154);
+}
+.signup{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup>a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+.signup>a:hover{
+    color: rgb(165, 163, 163);
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: white;
+}
+.buttn{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left{
+    margin: 10px 5px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
     width: 25%;
-    height: 100%;
+    height: 88vh;
+    padding: 10px;
 }
 .right{
     width: 75%;
-    height: 100%;
-} 
-
+    height: 100vh;
+    margin: 10px 5px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
