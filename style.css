@@ -207,8 +207,6 @@ body{
     flex-wrap: wrap;
     overflow-x: scroll;
     height: 350px;
-    /* width: 100vw; */
-    /* overflow-wrap: anywhere; */
 }
 .headingsec{
     display: flex;
@@ -224,7 +222,7 @@ body{
 .cardsongsec{
     background-color: rgb(35, 36, 36);
     border-radius: 20px;
-    height: 250px;
+    height: 270px;
     width: 230px;
     margin: 10px;
     padding: 20px;
@@ -234,6 +232,21 @@ body{
     align-items: center;
 }
 .songimg{
-    height: 170px;
-    /* width: 150px; */
+    height: 150px;
+    width: 150px;
+}
+
+.playmusic{
+    background-color: rgb(88, 146, 126);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.paybtns{
+    margin: 20px;
+    height: 30px;
 }
